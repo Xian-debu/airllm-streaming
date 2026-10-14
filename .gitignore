@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# 构建产物与日志
+build/
+dist/
+*.log
+*.tmp
+
+# 环境与凭据
+.env
+.venv/
+venv/
+*.token
+*.key
+
+# 模型数据（绝不入库）
+*.safetensors
+*.safetensors.done
+models/
+shards/
